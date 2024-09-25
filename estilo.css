@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #080808;
+  --second-bg-color: #cc00cc;
+  --second1-bg-color: #990000;
+  --text-color: #fff;
+  --main-color: #00ffee;
+  --img1-color: #ff2e00;
+  --imgff-color: #000000;
+  --col-color--: #0040ff;
+  --col-min: #00ff44;
+}
+
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(to right, #000000 0%, #ff0505 100%);
+  color: var(--text-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 8% 10rem;
+}
+
+.Inicio {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.Inicio-content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: left;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.Inicio-content h3 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 3.5rem;
+}
+
+.Inicio-content h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-top: 1, 5rem;
+  line-height: 1;
+}
+
+.Inicio-img {
+  border-radius: 80%;
+}
+
+.Inicio-img img {
+  position: flex;
+  top: 3rem;
+  width: 40vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px var(--second1-bg-color);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.navbar .logo {
+  position: absolute;
+  left: 20px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  pointer-events: none; /* Hace que no sea clickeable */
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff0000;
+}
+.Datos1 {
+  padding: 100px 15px;
+  font-size: 2rem;
+  text-align: center;
+}
+.Educacion1 {
+  padding: 100px 15px;
+  font-size: 2rem;
+  text-align: center;
+}
+.Pasatiempo1 {
+  padding: 100px 15px;
+  font-size: 2rem;
+  text-align: center;
+}
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+th {
+  background-color: #000000;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+.tab img:hover {
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+.timeline-dot {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border: 3px solid var(--main-color);
+  border-radius: 50px;
+  margin: 50px;
+  box-shadow: 0 0 15px var(--col-color--);
+}
+
+.timeline-date {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.timeline-content1 h3 {
+  width: 50%;
+  padding: 15px 10px;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00ffee;
+}
+
+.timeline-content1 p {
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.timeline-dot2 {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border: 3px solid var(--main-color);
+  border-radius: 50px;
+  margin: 50px;
+  box-shadow: 0 0 15px var(--col-color--);
+}
+
+.timeline-date2 {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.timeline-content2 h3 {
+  width: 50%;
+  padding: 15px 10px;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00ffee;
+}
+
+.timeline-content2 p {
+  font-family: cursive;
+  font-size: 18px;
+}
+.timeline-dot3 {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border: 3px solid var(--main-color);
+  border-radius: 50px;
+  margin: 50px;
+  box-shadow: 0 0 15px var(--col-color--);
+}
+
+.timeline-date3 {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.timeline-content3 h3 {
+  width: 50%;
+  padding: 15px 10px;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00ffee;
+}
+
+.timeline-content3 p {
+  font-family: cursive;
+  font-size: 18px;
+}
+.timeline-dot4 {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border: 3px solid var(--main-color);
+  border-radius: 50px;
+  margin: 50px;
+  box-shadow: 0 0 15px var(--col-color--);
+}
+
+.timeline-date4 {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.timeline-content4 h3 {
+  width: 50%;
+  padding: 15px 10px;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00ffee;
+}
+
+.timeline-content4 p {
+  font-family: cursive;
+  font-size: 18px;
+}
